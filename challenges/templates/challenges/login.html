@@ -1,0 +1,43 @@
+  
+{% extends "base.html" %}
+{% load  static  %}
+
+  {% block css_files %}
+ <link rel="stylesheet" href="{% static "challenges/style.css"%}" >
+  {% endblock%}
+
+    {% block page_title %} 
+       Login
+    {% endblock %}
+
+     {% block content %} 
+
+      <div> 
+
+
+     
+
+
+      <div> 
+          <h3> Account Login </h3>
+
+          New Customer
+ <h5>By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made. </h5>
+   <button > <a href='register'> continue  </a></button>
+
+      </div>   
+
+      <div> 
+         <form action="">
+        <h3> Please Login Here  </h3>
+        <label>Username</label>  <input type='text' placeholder="Username|Email"> <br>
+          <label>Password</label>  <input type='Password' placeholder="Password">
+          <input type="submit" value="Login" >
+        </form>
+        
+      </div> 
+
+       </div>  
+    
+
+     {% endblock %}

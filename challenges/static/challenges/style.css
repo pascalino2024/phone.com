@@ -1,0 +1,141 @@
+*{
+   padding:0;
+    margin:0;
+}
+body{
+     background-color: #f0f0f0;
+      font-family: "Source Code Pro", monospace;
+}
+.navigation {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navigation__list_item {
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+.navigation__list_items{
+    margin-left:15%;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.navigation__list_item a{
+    display: inline-block;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.select_item{
+  border:none;
+  margin-left:30%;
+  background-color: #fff;
+  outline: none;
+}
+
+.material-symbols-outlined{
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+    font-size: 20px;
+    padding-top: 2px;
+    color: #000;
+}
+.header{
+    background-color: #f8f8f8;
+    height: 50px;
+    
+}
+.logo ,.search  {
+    padding-top: 5px;
+    display: inline-block;
+    width: 38%;
+    
+}
+
+.login-bar{
+    padding-top: 5px;
+    display: inline-block;
+    width: 20%;
+}
+.login-bar{
+    text-align: right;
+}
+
+
+.search {
+    width: 300px;
+    text-align: right;
+   
+}
+
+.login__list_items {
+   
+   margin:-5px;
+  
+}
+
+
+.login__list_items li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.brands__list_item{
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 10px;
+    color: #fff ;
+    text-decoration: none;
+}
+
+.brands__list_item a{
+    font-weight: 400;
+    color: #fff ;
+    text-decoration: none;
+}
+
+.brands_list{
+    background-color: #37AEAE;
+    height: 40px;
+}
+
+.brands__list_items{
+    margin-left: 16%;
+    padding-top: 8px;
+    color: #fff ;
+}
+
+.login__list_item a {
+    text-decoration: none;
+}
+
+.search_btn{
+   width: 50%;
+
+}
+
+.logo h2{
+    margin-left:40%;
+    font-size: 35px;
+    color: #37AEAE ;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #575555;
+}
+
+.brands__name{
+    background-color: #FCFCFC;
+    width: 100%;
+}
+
+.brands__title{
+    margin-left: 20%;
+}
+
+
+

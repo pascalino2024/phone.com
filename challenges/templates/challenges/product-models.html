@@ -1,0 +1,28 @@
+  
+{% extends "base.html" %}
+{% load  static  %}
+
+  {% block css_files %}
+ <link rel="stylesheet" href="{% static "challenges/style.css"%}" >
+  {% endblock%}
+
+    {% block page_title %} 
+        {{brands}}
+    {% endblock %}
+
+     {% block content %} 
+         <div class="brands__name">
+          <div class="brands__title">
+            {{brands}}
+          </div>
+         </div>
+      
+
+                    {% endblock %}
+
+
+
+
+
+
+

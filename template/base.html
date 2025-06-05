@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        {% block page_title %} 
+           
+        {% endblock %}
+
+       
+    </title>
+
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+    </style>
+    {% block css_files %} 
+           
+    {% endblock %}
+    </head>
+    <body>
+       <div class="navigation" >
+           <ul class="navigation__list_items">
+            <li class="navigation__list_item" >
+                <a href="index">Accueil</a> </li>
+            <li class="navigation__list_item"> 
+                <a href="aboutus"> Sur Nous </a>  </li>
+            <li class="navigation__list_item"> <a href="contact"> Contact </a> </li>
+
+            <select class="select_item" name="" id="" >
+            <option>Francs CFA</option>
+            <option>Ghana Cedis </option>
+            </select>
+           </ul>
+       </div>
+       <div class="header">
+           <div class="logo">
+               <h2> <a href="/"> Phone.com</a></h2>
+           </div>
+           <div class="search">
+                <form action="" method="post">
+                <select name="" id="">
+                    <option value="">Tous</option> 
+                    <option value="">Iphone</option>
+                </select>
+                <input class="search_btn" type="text" name="" id="search">
+                <input type="button" value="Search" >
+           </form>
+           </div> 
+           <div class="login-bar">
+           <ul class="login__list_items">
+            <li class="login__list_item" > <a href="login" > Login </a> </li>
+            <li class="login__list_item"> <a href="register" >  Register </a> </li>
+            <li class="login__list_item"> <a href="whishlist" >   Wishlist </a>  </li>
+            <li class="login__list_item">  <a href="compare" >  Compare  </a> </li>
+         </ul>
+         </div>
+       </div>
+       <div class="brands_list" >
+             <ul class="brands__list_items" >
+            <!-- this is django specifique we call DTL
+                
+            -->
+              {% for brands in brandslist  %}
+                <li class="brands__list_item"> <a href="{{ brands }}"> {{ brands}}   </a></li>
+              {% endfor %}
+               
+            </ul>
+       </div>
+
+       {% block content %}
+       
+       
+       {%   endblock%}
+
+
+
+             <!--    <div>
+                    <ul>
+                        <li> <a href=""> Facebook</a> </li>
+                        <li> <a href=""> Twitter </a> </li>
+                        <li> <a href=""> Instagram</a> </li>
+                        <li> <a href=""> You Tube </a> </li>
+                    </ul>
+
+
+                </div>
+
+                <div>
+
+
+                </div>
+
+           </div>
+
+            
+
+       </div>
+ -->
+
+        <!-- <footer>
+        
+             <label for=""> Copyright 2024 , Imaginov Cyber Tech , All Rights Reserved</label>
+
+       </footer> -->
+      
+
+    </body>
+</html>

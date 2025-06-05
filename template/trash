@@ -1,0 +1,48 @@
+ <img src="images/banner_12-800x309.jpg" alt="" >
+       <div >
+           <div>
+              <img src="" alt="">
+              <h2>Free Shipping </h2>
+           </div>
+           <div>
+            <img src="" alt="">
+            <h2>Free Returns </h2> 
+         </div>
+         <div>
+            <img src="" alt="">
+            <h2>Secure Shopping  </h2>
+         </div>
+
+         <div>
+            <img src="" alt="">
+            <h2>Contact Us  </h2>
+         </div>
+       </div>
+
+       <div>
+          <label for=" "> Les Plus Vendues </label>
+
+           <div  style="width: 300px; height: 250px; border-radius:5; border-color: brown;"class="product-card">
+              <img src="images/test.jpg" style="width: 200px; height: 150px;"  alt="">
+              <div style="background-color: silver;">
+                <h4> Motorola </h4>
+                <h4>  Edge 30</h4>
+              </div>
+              <div>
+                Motorola Edge 30 ORIGINAL LCD Screen Display - Black 
+              </div>
+              <div>
+                <h4> 15000 XOF </h4>
+                <h5><del>25000 XOF </del> </h5>
+                 <form action="" method="post">
+                  <input type="number" name="" id=""> 
+                  <input type="button" value="+">
+                  <input type="button" value="-">
+                  <input type="button" value="ADD TO CART ">
+
+                 </form>
+                  <h5> Buy Now  </h5>
+                  <h5> Question </h5>
+              </div>
+
+                    <a href=""> See All Products </a>
